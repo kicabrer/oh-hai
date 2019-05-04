@@ -11,6 +11,12 @@
     <title>Hello, world!</title>
 		
 		<style>
+			h1 {
+				font-size: 80%;
+			}
+			h2 {
+				font-size: 80%;
+			}
 			.myrow1 {
 				background-color: rgb(250,250,250);
 			}
@@ -31,11 +37,11 @@
 			<div class="row">
 				<div class="col">
 					<h1>device size:</h1>
-					<h2><div class="hidden-sm-up">x-small</div></h2>
-					<h2><div class="hidden-xs-down hidden-md-up">small</div></h2>
-					<h2><div class="hidden-sm-down hidden-lg-up">medium</div></h2>
-					<h2><div class="hidden-md-down hidden-xl-up">large</div></h2>
-					<h2><div class="hidden-lg-down">x-large</div></h2>
+					<h2><div class="d-block d-sm-none">x-small</div></h2>
+					<h2><div class="d-none d-sm-block d-md-none">small</div></h2>
+					<h2><div class="d-none d-md-block d-lg-none">medium</div></h2>
+					<h2><div class="d-none d-lg-block d-xl-none">large</div></h2>
+					<h2><div class="d-none d-xl-block">x-large</div></h2>
 				</div>
 			</div>
 			<div class="row">
