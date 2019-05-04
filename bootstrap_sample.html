@@ -9,9 +9,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+		
+		<style>
+			h1 {
+				color: rgba(0,0,0,.8)
+				font-size: 80%
+			}
+			
+			h2 {
+				color: rgba(0,0,0,.8)
+				font-size: 50%
+			}
+			
+		</style>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<h1>device size:</h1>
+					<h2><div class="hidden-sm-up">x-small</div></h2>
+					<h2><div class="hidden-xs-down hidden-md-up">small</div></h2>
+					<h2><div class="hidden-sm-down hidden-lg-up">medium</div></h2>
+					<h2><div class="hidden-md-down hidden-xl-up">large</div></h2>
+					<h2><div class="hidden-lg-down">x-large</div></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img class="img-fluid" src="https://i.imgur.com/Pc6z0.jpg" alt="Bulldog stuck in a door, says OH HAI">
+				</div>
+      	<button type="button" class="btn btn-primary">Primary</button>
+			</div>
+		</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
